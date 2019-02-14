@@ -14,13 +14,13 @@ i) The raw data is available in the file BR85_C_II.
 
 i) The same experiment as above, is conducted on the bridge after a year. The raw data is available in the file BR85_C_IV
 
-# Data-Preprocessing (shm.ipynb)
+## Data-Preprocessing (shm.ipynb)
 Firstly, I remove outliers from the vibration data.
 ii) I'm using Local outlier Factor algorithm using scikit-learn library. LOF is an outlier detection technique for unsupervised machine learning problems. I tried a couple of other algorithms like Isolation forest but among all, LOF gave me a better performance for my data.
 iii) After outlier removal, I linearly interpolate my data to fill missing values.
 iii) Then, I plot the frequency spectrum of the data for further analysis.
 
-# Clustering
+## Clustering
 iv) Finally, I find patterns in the frequencies by forming clusters.
 The python code is available in the repository.
 
