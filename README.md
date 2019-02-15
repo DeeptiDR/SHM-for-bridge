@@ -16,13 +16,13 @@ i) The same experiment as above, is conducted on the bridge after a year. The ra
 
 # Steps for going about this:
 
-## Data-Preprocessing (shm1.ipynb) <- First part of our analysis
+## Data-Preprocessing (shm1.ipynb) <- Part-I of our analysis
 Firstly, I remove outliers from the vibration data.
 ii) I'm using Local outlier Factor algorithm using scikit-learn library. LOF is an outlier detection technique for unsupervised machine learning problems. I tried a couple of other algorithms like Isolation forest but among all, LOF gave me a better performance on my data.
 iii) After outlier removal, I linearly interpolate my data to fill missing values.
 iii) Then, I plot the frequency spectrum of the data.
 
-## Clustering <- Second part of our analysis (coming soon)
+## Clustering <- Part-II of our analysis (coming soon)
 iv) Finally, I find patterns in the frequencies by forming clusters.
 The python code is available in the repository.
 
