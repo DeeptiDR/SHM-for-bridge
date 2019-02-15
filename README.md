@@ -26,7 +26,7 @@ ii) After outlier removal, linear interpolation technique has been used to fill 
 iii) Finally, FFT algorithm is used to extract frequency components to plot the frequency spectrum of the data.
 
 ## Clustering <- Part-II of our analysis (coming soon)
-iv) Finally, I find patterns in the frequencies by forming clusters.
+i) Patterns in the frequencies are found by forming clusters.
 
 The python code for Part-I is available in the repository.
 
