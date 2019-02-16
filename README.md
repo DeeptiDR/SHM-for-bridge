@@ -27,6 +27,7 @@ iii) Finally, FFT algorithm is used to extract frequency components to plot the 
 
 ## Clustering <- Part-II of our analysis (coming soon)
 i) Patterns in the frequencies are found by forming clusters.
+ii) It is in the file SHM2.ipynb
 
 The python code for Part-I is available in the repository.
 
